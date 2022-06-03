@@ -2,6 +2,7 @@
   /* Font-sizes */
   --big-heading: 65px;
   --main-heading: 35px;
+  --small-heading: 25px;
   --valuation-title-font-size: 22px;
   --link-text: 15px;
   --button-text: 18px;
@@ -55,7 +56,7 @@ a {
 
 /* Similar Assinging */
 /* Banner, about, contact and valuation heading */
-.banner h3,
+
 .about-carprice h2,
 .contact-carprice-heading,
 .valuation-heading {
@@ -133,6 +134,11 @@ a {
 
 .banner h3 {
   margin-top: 15px;
+  padding-left: 50%;
+  font-size: var(--small-heading);
+  font-weight: 600 !important;
+  line-height: 25px;
+  text-transform: none;
 }
 
 .banner .form-label span {
@@ -318,6 +324,7 @@ a {
     /* Font-sizes */
     --big-heading: 50px;
     --main-heading: 25px;
+    --small-heading: 22px;
     --valuation-title-font-size: 20px;
     --link-text: 12px;
     --button-text: 15px;
@@ -331,6 +338,10 @@ a {
   .science {
     height: 300px !important;
   }
+
+  .banner h3 {
+    padding-left: 40%;
+  }
 }
 
 /* Wide Mobile Layout: less than 768px. */
@@ -339,6 +350,7 @@ a {
     /* Font-sizes */
     --big-heading: 40px;
     --main-heading: 22px;
+    --small-heading: 20px;
     --valuation-title-font-size: 20px;
     --link-text: 12px;
     --button-text: 15px;
@@ -396,6 +408,10 @@ a {
     text-align: center;
     float: none !important;
   }
+
+  .banner h3 {
+    padding-left: 0;
+  } 
 }
 
 /* Mobile Layout: less than 481px. */
@@ -404,6 +420,7 @@ a {
     /* Font-sizes */
     --big-heading: 27px;
     --main-heading: 18px;
+    --small-heading: 16px;
     --valuation-title-font-size: 20px;
     --link-text: 12px;
     --button-text: 15px;

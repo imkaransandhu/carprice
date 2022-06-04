@@ -418,7 +418,7 @@ a {
 @media only screen and (max-width: 480px) {
   :root {
     /* Font-sizes */
-    --big-heading: 27px;
+    --big-heading: 40px;
     --main-heading: 18px;
     --small-heading: 16px;
     --valuation-title-font-size: 20px;
@@ -429,7 +429,7 @@ a {
   }
 
   .banner h1 {
-    line-height: 30px !important;
+    line-height: 40px !important;
   }
 
   .banner h3 {

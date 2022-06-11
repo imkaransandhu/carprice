@@ -404,7 +404,7 @@ a {
     text-align: center;
   }
 
-  .footer-menu ul li a {
+  .footer-menu ul li a , .footer-menu ul div {
     text-align: center;
     float: none !important;
   }

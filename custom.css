@@ -134,7 +134,7 @@ a {
 
 .banner h3 {
   margin-top: 15px;
-  padding-left: 50%;
+  padding-right: 50%;
   font-size: var(--small-heading);
   font-weight: 600 !important;
   line-height: 25px;
@@ -173,9 +173,14 @@ a {
   border-radius: 50px;
 }
 
+form .row:last-child {
+  margin-top: 0;
+}
+
 /* backgroung image for the banner  */
 .banner .slider-bg-1 {
-  background-image: url(./assets/img/Optifleet_Car_Price-Hero.png);
+  background-image: url(./assets/img/Optifleet\ header\ cogs\ -\ final.png);
+  background-position: 0% 50%;
 }
 
 /* Adding margin to form */
@@ -340,7 +345,7 @@ a {
   }
 
   .banner h3 {
-    padding-left: 40%;
+    padding-right: 40%;
   }
 }
 
@@ -410,7 +415,7 @@ a {
   }
 
   .banner h3 {
-    padding-left: 0;
+    padding-right: 0;
   } 
 }
 

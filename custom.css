@@ -180,7 +180,6 @@ form .row:last-child {
 /* backgroung image for the banner  */
 .banner .slider-bg-1 {
   background-image: url(./assets/img/Optifleet\ header\ cogs\ -\ final.png);
-  background-position: 0% 50%;
 }
 
 /* Adding margin to form */

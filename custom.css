@@ -180,6 +180,7 @@ form .row:last-child {
 /* backgroung image for the banner  */
 .banner .slider-bg-1 {
   background-image: url(./assets/img/Optifleet\ header\ cogs\ -\ final.png);
+  background-position: top 50px right;
 }
 
 /* Adding margin to form */
@@ -320,6 +321,10 @@ form .row:last-child {
   .science {
     height: 400px !important;
   }
+
+  .banner .slider-bg-1 {
+    background-position: top 80px left -170px;
+  }
 }
 
 /* Tablet Layout: 768px. */
@@ -345,6 +350,10 @@ form .row:last-child {
 
   .banner h3 {
     padding-right: 40%;
+  }
+
+  .banner .slider-bg-1 {
+    background-position: center center;
   }
 }
 

@@ -371,6 +371,10 @@ form .row:last-child {
     --small-text: 10px;
   }
 
+  .banner .slider-bg-1 {
+    background-image: url(./assets/img/Optifleet-header-cogs---final-cropped\ mobile.png);
+  }
+
   /* Hamburger */
   .responsive-menu-wrap {
     right: 15px;
@@ -440,6 +444,8 @@ form .row:last-child {
     --main-text: 15px;
     --small-text: 10px;
   }
+
+
 
   .banner h1 {
     line-height: 40px !important;
